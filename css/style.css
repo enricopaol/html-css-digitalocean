@@ -5,12 +5,12 @@ body {
 }
 
 .entry-title {
-    font-size: 32px;
+    font-size: 30px;
     color: #082151;
 }
 
 .small-title {
-    font-size: 24px;
+    font-size: 20px;
     color: #082151;
 }
 
@@ -74,6 +74,72 @@ header .burger a{
     color: #2485fd;
 }
 
+/* MAIN */
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url(../img/ms-jumbo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.teaser p {
+    color: #bbcdff;;
+}
+
+
+/* Form */
+#contact-form {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+#contact-form h2 {
+    margin:0;
+}
+#contact-form h3 {
+    color: #2485fd;
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+#contact-form .form-group:nth-child(4) input[type="submit"] {
+    background-color: #2485fd;
+    border: 0;
+    color:white;
+}
+#contact-form .btn-form {
+    background-color: #fff;
+    border: 0;
+    color:#626262;
+    box-shadow: 1px 1px 3px rgba(128, 128, 127, 0.5);
+    position: relative;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+#contact-form .btn-form img {
+   height: 100%;
+   position: absolute;
+   left:0;
+   top:0;
+   padding:  6px 12px;
+}
+
+#contact-form .agree {
+    color: #082151;
+    font-size: 12px;
+}
+
+#contact-form .agree .link {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+
 
 
 /* MEDIA QUERIES */
@@ -82,7 +148,13 @@ header .burger a{
 @media all and (min-width: 768px) and (max-width: 991px) {
     /* Common */
     .container {
-        width: 100%;
+        width: 95%;
     }
+
+    /* Jumbotron */
+    .jumbotron .h1, .jumbotron h1 {
+        font-size: 36px;
+}
+
 }
 
