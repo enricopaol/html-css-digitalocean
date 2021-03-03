@@ -1,6 +1,7 @@
 /* COMMON */
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .entry-title {
@@ -14,7 +15,7 @@ body {
 }
 
 a.link {
-    color: #3689ff;
+    color: #2485fd;
     font-size: 16px;
     text-decoration: none;
 }
@@ -32,3 +33,56 @@ a.link {
 .section-padding {
     padding:40px;
 }
+
+/* HEADER */
+header .top-nav {
+    padding: 20px 0;
+}
+header .top-nav .logo img {
+    height: 30px;
+}
+
+/* Header Menu */
+.header-menu {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.header-menu li {
+    display: inline-block;
+    line-height: 35px;
+    padding-right: 15px;
+
+}
+
+.header-menu li a {
+    color: #082151;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.header-menu li .header-btn {
+    border: 1px solid #2485fd;
+    color: #2485fd;
+}
+
+header .burger a{
+    font-size:25px;
+    color: #2485fd;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    /* Common */
+    .container {
+        width: 100%;
+    }
+}
+
