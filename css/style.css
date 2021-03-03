@@ -2,3 +2,33 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.entry-title {
+    font-size: 32px;
+    color: #082151;
+}
+
+.small-title {
+    font-size: 24px;
+    color: #082151;
+}
+
+a.link {
+    color: #3689ff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.medium-text {
+    color: #697693;
+    font-size: 20px;
+}
+
+.small-text {
+    color: #697693;
+    font-size: 16px;
+}
+
+.section-padding {
+    padding:40px;
+}
