@@ -34,6 +34,14 @@ a.link {
     padding:40px;
 }
 
+.padding-block-30 {
+    padding: 30px 0;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
 /* HEADER */
 header .top-nav {
     padding: 20px 0;
@@ -82,6 +90,7 @@ header .burger a{
     background-image: url(../img/ms-jumbo.jpg);
     background-size: cover;
     color: white;
+    margin-bottom: 0;
 }
 
 .teaser p {
@@ -136,6 +145,29 @@ header .burger a{
 #contact-form .agree .link {
     font-size: 12px;
     text-decoration: underline;
+}
+
+/* SEZIONE PARNERS */
+.partners {
+    background-color: #f3f5f9;
+}
+
+.partners h3 {
+    color: #8a94aa;
+    text-transform: uppercase;
+}
+
+.partners .partner-images {
+    list-style-type: none;
+}
+
+.partners .partner-images li {
+    display: inline-block;
+    width: calc( ( 100% / 6 ) - 3px );
+}
+
+.partners .partner-images li img {
+    width: 100%;
 }
 
 
