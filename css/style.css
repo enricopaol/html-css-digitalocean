@@ -245,6 +245,15 @@ header .burger a{
     padding-bottom:10px;
 }
 
+/* SEZIONE AROUND THE WORLD */
+.around {
+    background-image: linear-gradient(#0048C6, #001F9A);
+}
+
+.around .entry-title {
+    color: #fff;
+}
+
 
 
 
