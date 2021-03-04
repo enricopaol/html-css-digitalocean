@@ -205,18 +205,39 @@ header .burger a{
 
 .slider-section .slider {
     text-align: center;
+    position: relative;
+    width: 70%;
+    margin: auto;
 }
 
 .slider-section img {
-    width: 70%;
-    padding: 0 30px;
+    width: 100%;
+    padding: 0 40px;
 }
 
 .slider-section i {
     font-size: 35px;
-    color: #082151;
+    color: #6f7b97;
     display: none;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
 }
+
+.slider-section i:hover {
+    color: #082151;
+}
+
+
+.slider-section .slider a.left i{
+    left:0;
+}
+
+.slider-section .slider a.right i {
+    right:0;
+}
+
+
 
 .slider-section .small-text {
     color: #082151;
@@ -294,6 +315,46 @@ header .burger a{
     font-size: 12px;
 }
 
+/* Sezione Slider testo */
+
+.slider-section.quote .slider{
+    width: 80%;
+}
+
+.slider-section.quote .slider .slider_inner {
+    padding: 0 40px;
+}
+
+.slider-content {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 10px;
+    margin: 30px 0;
+}
+
+.slider-content img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.slider-content .small-text {
+    margin: 0;
+}
+
+.slider-content .small-text:nth-child(3) {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.slider-content .link {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
 
 
 
@@ -327,7 +388,7 @@ header .burger a{
         margin: auto;
     }
 
-    /* Sezione slider */
+    /* Sezione slider img */
     .slider-section i {
         display: inline-block;
     }
@@ -340,6 +401,12 @@ header .burger a{
     .around .col_inner_content.no-border {
         margin-bottom:0;
     }
+
+    /* Sezione slider testo */
+    .slider-section.quote .slider{
+        width: 60%;
+    }
+    
 
 }
 
@@ -358,7 +425,7 @@ header .burger a{
         margin: auto;
     }
 
-    /* Sezione slider */
+    /* Sezione slider img */
     .slider-section i {
         display: inline-block;
     }
@@ -371,5 +438,11 @@ header .burger a{
     .around .col_inner_content.no-border {
         margin-bottom:0;
     }
+
+    /* Sezione slider testo */
+    .slider-section.quote .slider{
+        width: 55%;
+    }
+    
 }
 
