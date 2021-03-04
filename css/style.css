@@ -255,6 +255,49 @@ header .burger a{
 }
 
 
+.around .col_inner {
+    padding: 0 20px;
+
+}
+
+.around .col_inner_content {
+    border-bottom: 1px solid white;
+    height: 27px;
+    margin-top: 10px;
+}
+
+.around .col_inner_content.no-border {
+    border-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.around .col_inner_content div {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.around .col_inner_content div:first-child {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.around .col_inner_content div:nth-child(2) {
+    color: #6a8ed6;
+}
+
+.around .col_inner_content div:last-child {
+    text-align: right;
+}
+
+.around .col_inner_content .link {
+    font-size: 12px;
+}
+
+
+
+
+
 
 
 
@@ -293,6 +336,11 @@ header .burger a{
         margin-top:0
     }
 
+    /* Sezione Around The world */
+    .around .col_inner_content.no-border {
+        margin-bottom:0;
+    }
+
 }
 
 /* COMPUTER */
@@ -317,6 +365,11 @@ header .burger a{
 
     .slider-section .slider-dots .dot {
         margin-top:0
+    }
+
+    /* Sezione Around The world */
+    .around .col_inner_content.no-border {
+        margin-bottom:0;
     }
 }
 
