@@ -159,15 +159,17 @@ header .burger a{
 
 .partners .partner-images {
     list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
 .partners .partner-images li {
     display: inline-block;
-    width: calc( ( 100% / 6 ) - 3px );
+    width: calc( ( 100% / 2 ) - 3px );
 }
 
 .partners .partner-images li img {
-    width: 100%;
+    width: 75%;
 }
 
 
@@ -186,7 +188,23 @@ header .burger a{
     /* Jumbotron */
     .jumbotron .h1, .jumbotron h1 {
         font-size: 36px;
+    }
+
+    /* Sezione Partners */
+    .partners .partner-images li {
+        display: inline-block;
+        width: calc( ( 100% / 6 ) - 3px );
+    }
+
 }
 
+/* COMPUTER */
+@media all and (min-width:992px) {
+
+    /* Sezione Partners */
+    .partners .partner-images li {
+        display: inline-block;
+        width: calc( ( 100% / 6 ) - 3px );
+    }
 }
 
