@@ -4,6 +4,12 @@ body {
     font-weight: 500;
 }
 
+a.link {
+    color: #2485fd;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .entry-title {
     font-size: 30px;
     color: #082151;
@@ -12,12 +18,6 @@ body {
 .small-title {
     font-size: 20px;
     color: #082151;
-}
-
-a.link {
-    color: #2485fd;
-    font-size: 16px;
-    text-decoration: none;
 }
 
 .medium-text {
@@ -174,14 +174,22 @@ header .burger a{
 }
 
 /* SEZIONE SERVIZI */
+.services .service-title {
+    margin-bottom: 30px;
+}
 .services .service-list {
     list-style-type: none;
     border-left: 2px solid #cccccc;
     padding: 5px 0 5px 10px;
+    margin-bottom: 30px;
 }
 
 .services .service-list li a:hover {
     text-decoration: none;
+}
+
+.services .col_content {
+    padding-bottom: 20px;
 }
 
 
