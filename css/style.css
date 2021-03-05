@@ -297,18 +297,18 @@ header .burger a{
     font-size: 12px;
 }
 
-.around .col_inner_content div:first-child {
+.around .col_inner_content .row div:first-child {
     color: white;
     text-transform: uppercase;
     text-align: center;
 }
 
-.around .col_inner_content div:nth-child(2) {
+.around .col_inner_content .row div:nth-child(2) {
     color: #6a8ed6;
 }
 
-.around .col_inner_content div:last-child {
-    text-align: right;
+.around .col_inner_content .row div:last-child {
+    text-align: center;
 }
 
 .around .col_inner_content .link {
