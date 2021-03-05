@@ -354,6 +354,21 @@ header .burger a{
     display: inline-block;
 }
 
+/* SEZIONE GET STARTED */
+.get-started {
+    background-image: linear-gradient(#0048C6, #001F9A);
+}
+
+.get-started .entry-title {
+    color:white;
+    padding-bottom: 20px;
+}
+
+.get-started .btn {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
 
 
 
