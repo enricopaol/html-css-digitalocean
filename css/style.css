@@ -434,35 +434,47 @@ footer .footer-menu li a {
 .fixed {
     position: fixed;
     bottom:30px;
-    right: 30px;
-    width: 100%;
+    left: 30px;
 }
+
 
 
 .fixed .cartoon {
     display: inline-block;
     vertical-align: middle;
     background-color: #fff;
-    width: 25%;
+    width: 80%;
     border-radius: 4px;
     padding:10px;
     text-align: left;
     box-shadow: 1px 1px 3px rgba(128, 128, 127, 0.5);
+    position: relative;
+}
+
+.fixed .cartoon .triangle {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -5px;
+    bottom: 15px;
+    box-shadow: 1px -1px 1px rgb(128 128 127 / 30%);
+    
 }
 
 .fixed .shark {
-    display: inline-block;
-    vertical-align: bottom;
+    display: block;
     background-color: #006aff;
     height: 55px;   
     width: 55px;
     line-height: 55px;
     border-radius: 4px;
-    margin-left: 15px;
     box-shadow: 1px 1px 3px rgba(128, 128, 127, 0.5);
     position: relative;
-   
+    margin-top: 15px;
 }
+
 .fixed .shark img {
     height: auto;
     width: 100%;
@@ -573,6 +585,28 @@ footer .footer-menu li a {
     .slider-section.quote .slider{
         width: 55%;
     }
+
+    /* Element Fixed */
+    .fixed {
+        right: 30px;
+        left:0;
+    }
+
+    .fixed .alignment {
+        text-align: right;
+    }
+
+    .fixed .cartoon {
+        width: 25%;
+    }
+
+    .fixed .shark {
+        margin-left: 15px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    
     
 }
 
